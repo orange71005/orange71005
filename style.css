@@ -1,5 +1,52 @@
+@import url(normalize.css);
 #continer {
     background-color: rgb(108, 186, 212);
-    width: 980px;
+    width: 80%;
     margin: 0px auto;
+}
+h1{
+    width: 300px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 5px solid #95dbbd;
+    background-color: #6fbb9a;
+    color: #fff;
+    font-size: 250%;
+    text-align: center;
+    line-height: 1;
+}
+h2{
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted #c530b1;
+    border-left: 10px solid #d0e35b;
+    color: #f87901;
+}
+#contents{
+    margin: 40px;
+    padding: 40px 80px;
+    border: 2px solid #31724e;
+    background-color: #fff;
+}
+.more{
+    text-align: right;
+}
+.more::after{
+    content: ;
+}
+span{
+    font-weight: normal;
+}
+#contents > section + section{
+    margin-top: 80px;
+}
+header,nav,footer{
+    text-align: center;
+}
+a{
+    color: #8400ff;
+}
+a:hover{
+    color:#8400ffe1 ;
+    text-decoration: none;
 }
