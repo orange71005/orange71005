@@ -1,6 +1,6 @@
 @import url(normalize.css);
 #continer {
-    background-color: rgb(108, 186, 212);
+
     width: 80%;
     margin: 0px auto;
 }
@@ -21,18 +21,30 @@ h2{
     border: 1px dotted #c530b1;
     border-left: 10px solid #d0e35b;
     color: #f87901;
+    border-radius: 10px;
+}
+.h3{
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: #d0e35b;
+    color: #ff005d;
+    border-radius: 10px;
 }
 #contents{
-    margin: 40px;
+    width: 798px;
+    margin: 40px auto;
     padding: 40px 80px;
     border: 2px solid #31724e;
     background-color: #fff;
+    
 }
 .more{
     text-align: right;
 }
 .more::after{
-    content: ;
+    content: url(img/ico_arrow.png);
+    margin-left: 3px;
+    vertical-align: middle;
 }
 span{
     font-weight: normal;
@@ -44,12 +56,62 @@ header,nav,footer{
     text-align: center;
 }
 a{
-    color: #8400ff;
+    color: #fd5d00e6;
 }
 a:hover{
-    color:#8400ffe1 ;
+    color: #ff5e00 ;
     text-decoration: none;
+}
+a[target="_blank"]::after{
+    content:url(img/ico_blank.png);
+    margin-left: 5px;
+    vertical-align: middle;
+}
+a[href^="mailto"]::after{
+    content: url(img/ico_mail.png);
+    margin-left: 5px;
+    vertical-align: middle;
 }
 .h{
     border-radius: 50%;
+    text-shadow: 1px 1px 2px #307657;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(to bottom,#6fbb9a,#4a9d79);
+    font-family: 'LimeLight', cursive;
+}
+body{
+background: #fbf9cc url(img/bg.png) repeat-x;
+}
+.menu li{
+    list-style-type: none;
+    margin: 0 10px;
+    display: inline-block;
+    width: 180px;
+}
+.menu a{
+    display:  block;
+    padding: 10px;
+    background: #6fbb9a;
+    color:#fff;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.menu a:hover{
+    background: #90ddbb;
+}
+.imgL{
+    float: left;
+    margin-right: 20px;
+}
+.imgR{
+    float: right;
+    margin-left: 20px;
+}
+.clear{
+    clear:both;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
 }
