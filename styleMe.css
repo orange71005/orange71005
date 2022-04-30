@@ -57,7 +57,7 @@ a:hover{
 .clear{
     clear:both;
 }
-.footer,.nav,.body{
+.footer,.nav{
     text-align: center;
 }
 .menu li{
