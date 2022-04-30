@@ -1,0 +1,79 @@
+h1{
+    width: 300px;
+    padding: 30PX;
+    margin: 40px auto;
+    background-color: antiquewhite;
+    border: 3px solid rgb(237, 206, 165);
+    font-size: 30px;
+    text-align: center;
+    border-radius: 20%;
+}
+h2{
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted #c530b1;
+    border-left: 30px solid #d0e35b;
+    background-color: azure;
+    color: #f87901;
+    border-radius: 10px;
+}
+.h3{
+width: 300px;
+padding: 30PX;
+margin: 40px auto;
+background-color: antiquewhite;
+border: 3px solid rgb(237, 206, 165);
+font-size: 30px;
+text-align: center;
+border-radius: 20%;
+}
+#continer {
+
+    width: 80%;
+    margin: 0px auto;
+}
+#continer > section + section{
+    margin-top: 80px;
+}
+.a{
+    text-align: right;
+    font-size: 20px;
+}
+a{
+    color: #df01f8;
+}
+a:hover{
+    color: #df01f8;
+    text-decoration: none;   
+}
+.imgL{
+    float: left ;
+    margin-right: 20px;
+}
+.imgR{
+    float: right;
+    margin-left: 20px;
+}
+.clear{
+    clear:both;
+}
+.footer,.nav,body{
+    text-align: center;
+}
+.menu li{
+    list-style-type: none;
+    margin: 0 10px;
+    display: inline-block;
+    width: 180px;
+}
+.menu a{
+    display:  block;
+    padding: 10px;
+    background: #6fbb9a;
+    color:#fff;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.menu a:hover{
+    background: #90ddbb;
+}

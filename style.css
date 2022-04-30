@@ -67,7 +67,7 @@ a[target="_blank"]::after{
     margin-left: 5px;
     vertical-align: middle;
 }
-a[href^="mailto"]::after{
+a[href^="mailto:"]::after{
     content: url(img/ico_mail.png);
     margin-left: 5px;
     vertical-align: middle;
