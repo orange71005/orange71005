@@ -1,12 +1,12 @@
 h1{
-    width: 300px;
-    padding: 30PX;
-    margin: 40px auto;
+    width: 300px;      <!--寬-->
+    padding: 30PX;     <!--方格內推-->
+    margin: 40px auto;  <!--方格外推-->
     background-color: antiquewhite;
-    border: 3px solid rgb(237, 206, 165);
+    border: 3px solid rgb(237, 206, 165); <!--框線-->
     font-size: 30px;
     text-align: center;
-    border-radius: 20%;
+    border-radius: 20%;<!--圓角-->
 }
 h2{
     padding: 10px;

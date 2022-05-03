@@ -115,3 +115,10 @@ background: #fbf9cc url(img/bg.png) repeat-x;
     display: block;
     clear: both;
 }
+.h1{
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted #c530b1;
+    border-left: 10px solid #d0e35b;
+    color: #f87901;
+    border-radius: 10px;
