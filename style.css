@@ -22,6 +22,7 @@ h2{
     border-left: 10px solid #d0e35b;
     color: #f87901;
     border-radius: 10px;
+
 }
 .h3{
     padding: 10px;
@@ -121,4 +122,44 @@ background: #fbf9cc url(img/bg.png) repeat-x;
     border: 1px dotted #c530b1;
     border-left: 10px solid #d0e35b;
     color: #f87901;
-    border-radius: 10px;
+    border-radius: 10px;}
+nav{
+    background-color: rgba(158, 238, 238, 0.937);
+    margin: 40px auto;
+    text-align: center; /*編輯文字*/
+}
+nav ul{
+    margin: 0px;
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav li a{
+    display: block;  /* */
+    text-decoration: none;/*沒有底線*/
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+nav li a:hover{  /*當滑鼠一過去時*/
+    background-color: rgb(243, 164, 67);
+    color: rgb(42, 22, 228);
+    
+}
+.ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+.picture{
+    text-align: center;
+    clear: both;
+}
+.post{
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.h11{
+    clear: both;
+}

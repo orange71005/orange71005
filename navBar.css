@@ -1,0 +1,19 @@
+nav{
+    background-color: rgba(158, 238, 238, 0.937);
+    text-align: center; /*編輯文字*/
+}
+nav li{
+    list-style-type: none; /*UL前面的原點消失*/
+    display: inline-block;
+}
+nav li a{
+    display: block;  /* */
+    text-decoration: none;/*沒有底線*/
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+nav li a:hover{  /*當滑鼠一過去時*/
+    background-color: rgb(243, 164, 67);
+    color: rgb(42, 22, 228);
+    
+}
