@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+nav,header,body{
+    margin: 0px;
+}
+header{
+    position: sticky;  /*固定畫面*/
+    top: 0px;
+}
+nav{
+    background-color: rgba(22, 191, 168);
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+    margin: 0px;
+
+}
+nav li{
+    list-style-type: none;
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: azure;
+    padding: 10px;
+}
+nav a:hover{
+    background-color:rgb(244, 229, 208);
+    color: aqua;
+    transition: background-color 0.5s linear,color 0.5s ease-in; /*滑鼠一過去的動畫*/
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(22, 191, 168, 70%);
+}
+.tilte{
+    text-align: center;
+    font-family: 'Limelight', cursive;
+}
+
+#photolist ul{
+    display: flex;
+    flex-wrap: wrap; /*照片可換行*/
+    justify-content:center ;  /*至中*/
+    padding: 0px;
+}
+
+#photolist li{
+    list-style-type: none;
+    margin: 10px;
+}
+#photolist img{
+    border-radius: 10%;
+    box-shadow: 10px 5px 10px rgb(99, 95, 95);
+
+}
+#photolist .emptyitem{
+    width: 200px;
+}
+.gotop{
+    font-size: 50px;
+    color: aquamarine;
+    position: fixed; /*固定位置*/
+    right: 10px;
+    bottom: 10px;
+}
